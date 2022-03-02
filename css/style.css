@@ -1,0 +1,75 @@
+main{
+	width: 900px;
+	margin: 0 auto 0 auto; /*trang web canh giữa màn hình*/
+}
+
+header{
+	width: 900px;
+	height: 143px;
+	background: url(../images/banner.jpg);
+}
+
+section{
+	width: 900px;
+}
+
+aside{
+	width: 220px;
+	float: left;
+}
+
+aside h2{
+	color: blue;
+	background: url(../images/t_l.gif);
+	height: 30px;
+	font-size: 18px;
+	box-sizing: border-box; /*padding thoải mái thì chiều cao cũng không tăng*/
+	padding: 5px 0 0 5px;
+	margin-bottom: 0; /*làm mất lề dưới*/
+}
+
+aside ul{
+	list-style-image: url(../images/li.gif);
+	border: 1px solid #1e90ff;
+	padding: 5px 0 5px 24px;
+	margin-top: 0;/*làm mất lề trên*/
+}
+
+a:link {
+	color: #1e90ff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: grey;
+}
+
+article{
+	width: 670px; /*chừa 10px khoảng trống*/
+	float: right;
+	background: url(../images/bg_post.gif) no-repeat right bottom; /*tấm hình kh lặp lại và vị trị là phía dưới bên phải*/
+}
+
+article h2{
+	color: #0099ff;
+}
+
+article p{
+	text-align: justify; /*bên phải can đều 2 bên*/
+}
+
+footer{
+	width: 900px;
+	height: 50px;
+	background: #1e90ff;
+	clear: both;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
